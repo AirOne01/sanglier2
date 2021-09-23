@@ -1,0 +1,15 @@
+{
+  "name": "sanglier_v2",
+  "version": "2.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only --poll ./src/index.ts"
+  },
+  "author": "AirOne01",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
+}
